@@ -18,6 +18,14 @@
   justify-content: center;
   row-gap: 1.5rem;
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5rem;
+  }
+
   &__logo {
     height: 3rem;
     justify-self: center;
@@ -51,8 +59,16 @@
     gap: 3rem;
     justify-content: space-between;
 
+    @media only screen and (max-width: 53.25em /* 852px */) {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      align-items: center;
+    }
     img {
-      height: 2.5rem;
+      flex: 0 1;
+      max-height: 2.5rem;
+      max-width: 100%;
       filter: brightness(70%);
     }
   }
