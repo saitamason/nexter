@@ -11,10 +11,29 @@
     <link rel="stylesheet" href="sass/main.scss" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
+    <script defer src="js/script.js"></script>
+
     <title>nexter &mdash; your home, your freedom</title>
   </head>
   <body class="container">
-    <div class="sidebar"><button class="nav-btn"></button></div>
+    <div class="overflow"></div>
+    <div class="sidebar">
+      <button class="nav-btn-container"><div class="nav-btn"></div></button>
+      <ul class="sidenav">
+        <li class="sidenav__item">
+          <a href="#features" class="sidenav__link">Why us?</a>
+        </li>
+        <li class="sidenav__item">
+          <a href="#customers" class="sidenav__link">Happy customers</a>
+        </li>
+        <li class="sidenav__item">
+          <a href="#sale" class="sidenav__link">Houses for sale</a>
+        </li>
+        <li class="sidenav__item">
+          <a href="#gallery" class="sidenav__link">Gallery</a>
+        </li>
+      </ul>
+    </div>
 
     <header class="header">
       <img src="img/logo.png" alt="Nexter logo" class="header__logo" />
@@ -51,7 +70,7 @@
       </div>
     </div>
 
-    <section class="features">
+    <section class="features" id="features">
       <div class="feature">
         <svg class="feature__icon">
           <use xlink:href="img/sprite.svg#icon-global"></use>
@@ -122,7 +141,7 @@
       <img src="img/story-2.jpeg" alt="New house" class="story__img--2" />
     </div>
 
-    <div class="story__content">
+    <div class="story__content" id="customers">
       <h3 class="heading-3 mb-sm">Happy Customers</h3>
       <h2 class="heading-2 heading-2--dark mb-md">
         &ldquo;The best decision of our lives&rdquo;
@@ -135,7 +154,7 @@
       <button class="btn">Find your own home</button>
     </div>
 
-    <section class="homes">
+    <section class="homes" id="sale">
       <div class="home">
         <img src="img/house-1.jpeg" alt="House 1" class="home__img" />
         <svg class="home__like">
@@ -335,7 +354,7 @@
       </div>
     </section>
 
-    <section class="gallery">
+    <section class="gallery" id="gallery">
       <figure class="gallery__item gallery__item--1">
         <img src="img/gal-1.jpeg" alt="Gallery image 1" class="gallery__img" />
       </figure>
