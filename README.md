@@ -6,7 +6,7 @@
 [<img src="nexter-screenshot.webp" alt="Screenshot of the Nexter app" width="480px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
 
 ## 🛠️ Tools and technologies
-`Sass` `SCSS` `HTML` `VS Code`
+`Sass` `SCSS` `HTML` `JavaScript` `VS Code`
 
 By preparing this project I learned **advanced CSS grid features**.
 
