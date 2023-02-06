@@ -2,8 +2,11 @@
 
 **Demo landing page for a fictional company that sells luxury homes.**
 
-## 💻 Screenshot
-[<img src="nexter-screenshot.webp" alt="Screenshot of the Nexter app" width="480px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
+## 💻 Screenshots
+[<img src="nexter-screenshot.webp" alt="Screenshot #1 of the Nexter app" width="412px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
+[<img src="nexter-screenshot-03.webp" alt="Screenshot #2 of the Nexter app" width="412px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
+[<img src="nexter-screenshot-04.webp" alt="Screenshot #3 of the Nexter app" width="412px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
+[<img src="nexter-screenshot-05.webp" alt="Screenshot #4 of the Nexter app" width="412px">](https://dawidlehai-nexter.netlify.app/ 'Live preview')
 
 ## 🛠️ Tools and technologies
 `Sass` `SCSS` `HTML` `JavaScript` `VS Code`
